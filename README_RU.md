@@ -16,7 +16,8 @@ default_KOL_STARS = 5000
 default_START_EXPANSION = 30
 default_DELTA_X = 0
 default_DELTA_Y = 0
-default_DELTA_Z = 0
+default_DELTA_Z = 0.
+
 При создании экземпляра галактики координаты каждой из звезд генерируются в полярных координатах.
 Далее данные координаты приводятся через метод transform_to_a_Cartesian_coordinate_system_XY к декартовой системе кординат. Недостающая координата Z
 генерируется отдельно через метод point_sampling_Z, который реализует два вида распределения координаты Z:
