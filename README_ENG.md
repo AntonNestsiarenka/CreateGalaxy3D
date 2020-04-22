@@ -2,12 +2,13 @@ The Galaxy class describes a galaxy in three-dimensional space.
 When creating a galaxy instance, you can specify the following options:
 - name of the galaxy;
 - radius of the galaxy;
-- the distribution limit of stars along the Z axis (how thick or thin the disk is)
-- the beginning of the expansion of the galaxy disk
-- the number of stars in the galaxy
-- X axis coordinate of the center of the galaxy
-- Y axis coordinate of the center of the galaxy
-- Z axis coordinate of the center of the galaxy
+- the distribution limit of stars along the Z axis (how thick or thin the disk is);
+- the beginning of the expansion of the galaxy disk;
+- the number of stars in the galaxy;
+- X axis coordinate of the center of the galaxy;
+- Y axis coordinate of the center of the galaxy;
+- Z axis coordinate of the center of the galaxy.
+
 If these parameters are not specified, then a default galaxy instance will be created with the parameters:
 default_RANGE_Z = 1000.0
 default_R_GALAXY = 10000.0
