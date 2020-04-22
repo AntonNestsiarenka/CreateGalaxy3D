@@ -16,7 +16,8 @@ default_KOL_STARS = 5000
 default_START_EXPANSION = 30
 default_DELTA_X = 0
 default_DELTA_Y = 0
-default_DELTA_Z = 0
+default_DELTA_Z = 0.
+
 When creating a galaxy instance, the coordinates of each of the stars are generated in polar coordinates.
 Further, these coordinates are given through the transform_to_a_Cartesian_coordinate_system_XY() method to the Cartesian coordinate system.
 The missing Z coordinate is generated separately through the point_sampling_Z() method, which implements two types of distribution of the Z coordinate:
